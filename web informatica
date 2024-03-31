@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia del PC</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d; /* Color de fondo oscuro */
+            color: #fff; /* Texto en blanco */
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333; /* Color de fondo del encabezado */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: #333; /* Color de fondo del pie de página */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Estilos específicos */
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1, h2, h3 {
+            color: #e31b6d; /* Color de título */
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .donation {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .donation p {
+            margin-bottom: 10px;
+        }
+
+        .donate-button {
+            background-color: #e31b6d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .donate-button:hover {
+            background-color: #d01763;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Historia del PC</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#primeras-computadoras">Primeras Computadoras</a></li>
+                <li><a href="#era-de-las-pc">Era de las PC</a></li>
+                <li><a href="#antivirus">Antivirus Gratuitos</a></li>
+                <li><a href="#limpieza-software">Limpieza de Software</a></li>
+                <li><a href="#limpieza-hardware">Limpieza de Hardware</a></li>
+                <li><a href="#maquinas-virtuales">Máquinas Virtuales</a></li>
+                <li><a href="#diferencias-windows-linux">Diferencias entre Windows y Linux</a></li>
+                <li><a href="#bios">BIOS</a></li>
+                <li><a href="#programacion">Programación</a></li>
+                <li><a href="#donaciones">Donaciones</a></li>
+                <li><a href="#hoy">Hoy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="introduccion">
+            <h2>Introducción</h2>
+            <p>La historia de las computadoras personales es fascinante y abarca varios siglos de innovación y desarrollo tecnológico. Desde los primeros dispositivos mecánicos hasta los dispositivos ultra-portátiles y conectados en red de hoy en día, la evolución de las computadoras ha sido una historia de constante cambio y avance.</p>
+        </section>
+
+        <section id="primeras-computadoras">
+            <h2>Primeras Computadoras</h2>
+            <p>El primer ordenador electrónico programable fue el ENIAC (Electronic Numerical Integrator and Computer), desarrollado durante la Segunda Guerra Mundial en la Universidad de Pensilvania por John Mauchly y J. Presper Eckert. El ENIAC fue completado en 1945 y ocupaba un espacio enorme, llenando una habitación entera. Era utilizado principalmente para cálculos balísticos.</p>
+        </section>
+
+        <section id="era-de-las-pc">
+            <h2>Era de las PC</h2>
+            <p>La década de 1970 marcó el comienzo de la revolución de las computadoras personales. La introducción del Altair 8800 en 1975, seguido por el lanzamiento del Apple I en 1976 por Steve Wozniak y Steve Jobs, impulsó la popularidad de las PCs entre los consumidores. Estas primeras computadoras personales eran rudimentarias en comparación con las de hoy, pero fueron el punto de partida de la informática personal.</p>
+        </section>
+
+        <section id="antivirus">
+            <h2>Antivirus Gratuitos</h2>
+            <p>Existen varios antivirus gratuitos disponibles para proteger tu ordenador sin la necesidad de pagar ni suscribirse. Algunos de los más populares incluyen:</p>
+            <ul>
+                <li><strong>Avast Free Antivirus:</strong> Ofrece protección básica contra virus y malware, así como características adicionales como escaneo de red y detección de vulnerabilidades.</li>
+                <li><strong>AVG AntiVirus Free:</strong> Proporciona protección esencial contra virus, spyware y otros tipos de malware, así como funciones de seguridad en tiempo real.</li>
+                <li><strong>Avira Free Antivirus:</strong> Ofrece una amplia gama de características de seguridad, incluyendo protección en tiempo real, análisis bajo demanda y una extensión de navegador para seguridad en línea.</li>
+                <li><strong>Bitdefender Antivirus Free Edition:</strong> Proporciona protección básica contra amenazas en línea, incluyendo virus, spyware y ransomware, con un mínimo impacto en el rendimiento del sistema.</li>
+            </ul>
+            <p>Estas son solo algunas opciones, y hay muchas más disponibles para elegir. Es importante investigar y elegir el antivirus que mejor se adapte a tus necesidades y preferencias.</p>
+        </section>
+
+        <section id="limpieza-software">
+            <h2>Limpieza de Software</h2>
+            <p>Para mantener tu ordenador funcionando sin problemas, es importante realizar regularmente la limpieza de software. Aquí hay algunos programas útiles para ayudarte en esta tarea:</p>
+            <ul>
+                <li><strong>CCleaner:</strong> Herramienta de limpieza de sistema que elimina archivos temporales, cookies y otros datos innecesarios para mejorar el rendimiento del PC.</li>
+                <li><strong>Malwarebytes:</strong> Herramienta de eliminación de malware que escanea y elimina software malicioso, como virus, spyware y ransomware.</li>
+                <li><strong>Glary Utilities:</strong> Suite de herramientas de optimización del sistema que incluye funciones de limpieza, reparación y optimización para mejorar el rendimiento de tu PC.</li>
+            </ul>
+            <p>Estos programas pueden ayudarte a mantener tu ordenador en óptimas condiciones y a prevenir problemas de rendimiento.</p>
+        </section>
+
+        <section id="limpieza-hardware">
+            <h2>Limpieza de Hardware</h2>
+            <p>Además de la limpieza de software, también es importante limpiar el hardware de tu PC regularmente para mantenerlo funcionando de manera eficiente. Aquí hay algunos consejos para limpiar el hardware del PC:</p>
+            <ul>
+                <li><strong>Limpieza del polvo:</strong> Utiliza aire comprimido o un aspirador de mano para eliminar el polvo acumulado en los ventiladores, las rejillas de ventilación y otros componentes internos del ordenador.</li>
+                <li><strong>Limpieza de la carcasa:</strong> Utiliza un paño suave y un limpiador de superficies para limpiar la carcasa exterior del ordenador y eliminar las manchas y la suciedad acumulada.</li>
+                <li><strong>Limpieza del teclado y el ratón:</strong> Utiliza un paño suave y alcohol isopropílico para limpiar el teclado y el ratón, asegurándote de limpiar entre las teclas y los botones.</li>
+                <li><strong>Limpieza del monitor:</strong> Utiliza un paño suave y un limpiador de pantallas para limpiar el monitor del ordenador y eliminar el polvo y las huellas dactilares.</li>
+            </ul>
+            <p>Realizar estas tareas de limpieza regularmente puede ayudar a prolongar la vida útil de tu ordenador y a mantenerlo funcionando de manera óptima.</p>
+        </section>
+
+        <section id="maquinas-virtuales">
+            <h2>Máquinas Virtuales</h2>
+            <p>Una máquina virtual (VM) es un software que simula una computadora dentro de otra computadora. Esto permite ejecutar múltiples sistemas operativos en una única máquina física y compartir los recursos de hardware de manera eficiente. Algunos de los beneficios de utilizar máquinas virtuales son:</p>
+            <ul>
+                <li><strong>Isolación:</strong> Las VMs ofrecen un entorno aislado para ejecutar aplicaciones y sistemas operativos, lo que ayuda a prevenir conflictos entre ellos.</li>
+                <li><strong>Flexibilidad:</strong> Puedes crear, clonar y eliminar fácilmente máquinas virtuales según tus necesidades, lo que te permite probar diferentes configuraciones de software sin afectar tu sistema principal.</li>
+                <li><strong>Optimización de recursos:</strong> Las máquinas virtuales comparten los recursos de hardware de la máquina física, lo que permite utilizar de manera más eficiente la capacidad de procesamiento, memoria y almacenamiento.</li>
+                <li><strong>Desarrollo y pruebas:</strong> Las VMs son ampliamente utilizadas en entornos de desarrollo y pruebas de software, ya que permiten probar aplicaciones en diferentes sistemas operativos y configuraciones de hardware de manera rápida y segura.</li>
+            </ul>
+            <p>En resumen, las máquinas virtuales son una herramienta poderosa que proporciona flexibilidad, aislamiento y optimización de recursos, lo que las hace ideales para una variedad de aplicaciones en el desarrollo de software, la administración de sistemas y la seguridad informática.</p>
+        </section>
+
+        <section id="bios">
+            <h2>BIOS</h2>
+            <p>La BIOS (Basic Input/Output System) es un programa integrado en la placa base de un ordenador que se encarga de realizar diversas funciones esenciales durante el proceso de arranque del sistema. Algunas de las principales funciones de la BIOS son:</p>
+            <ul>
+                <li><strong>POST (Power-On Self-Test):</strong> La BIOS realiza una serie de pruebas de diagnóstico para verificar que todos los componentes del hardware estén funcionando correctamente al encender el ordenador.</li>
+                <li><strong>Configuración del hardware:</strong> La BIOS permite configurar varios aspectos del hardware del ordenador, como la fecha y la hora del sistema, la secuencia de arranque de los dispositivos de almacenamiento, y los ajustes de rendimiento.</li>
+                <li><strong>Inicialización del hardware:</strong> La BIOS inicializa y configura los componentes del hardware, como el procesador, la memoria RAM, los discos duros y otros dispositivos periféricos, para preparar el sistema para el arranque del sistema operativo.</li>
+                <li><strong>Arranque del sistema operativo:</strong> Una vez que se han completado las pruebas y la inicialización del hardware, la BIOS carga el sistema operativo desde el dispositivo de almacenamiento especificado en la secuencia de arranque, como el disco duro o una unidad USB.</li>
+            </ul>
+            <p>En resumen, la BIOS es un componente fundamental de cualquier ordenador que proporciona una interfaz básica entre el hardware y el software, y realiza funciones críticas para garantizar un arranque correcto del sistema.</p>
+        </section>
+
+        <section id="programacion">
+            <h2>Programación</h2>
+            <p>La programación es el proceso de escribir, probar y mantener el código fuente de un programa de computadora. Es una habilidad fundamental en el mundo de la tecnología y es utilizada en una amplia variedad de campos, desde el desarrollo de software hasta la inteligencia artificial.</p>
+            <p>Existen muchos lenguajes de programación diferentes, cada uno con sus propias ventajas y desventajas. Algunos de los mejores lenguajes de programación y sus razones para ser considerados los mejores son:</p>
+            <ul>
+                <li><strong>Python:</strong> Python es conocido por su sintaxis simple y legible, lo que lo hace ideal para principiantes. Es ampliamente utilizado en áreas como la ciencia de datos, el aprendizaje automático y el desarrollo web.</li>
+                <li><strong>JavaScript:</strong> JavaScript es el lenguaje de programación principal para el desarrollo web. Permite la creación de páginas web interactivas y dinámicas, y es compatible con la mayoría de los navegadores web modernos.</li>
+                <li><strong>Java:</strong> Java es un lenguaje de programación robusto y orientado a objetos que se utiliza en una amplia variedad de aplicaciones, desde aplicaciones móviles hasta sistemas empresariales.</li>
+                <li><strong>C++:</strong> C++ es un lenguaje de programación de alto rendimiento utilizado en aplicaciones que requieren un control directo sobre el hardware, como los juegos y los sistemas embebidos.</li>
+                <li><strong>C#:</strong> C# es un lenguaje de programación desarrollado por Microsoft que se utiliza principalmente en el desarrollo de aplicaciones para la plataforma .NET.</li>
+            </ul>
+            <p>Estos son solo algunos ejemplos de los mejores lenguajes de programación, pero hay muchos más disponibles para aprender y explorar. La elección del lenguaje de programación adecuado depende de tus intereses, objetivos y el tipo de proyectos en los que estés interesado en trabajar.</p>
+        </section>
+
+        <section id="donaciones">
+            <h2>¡Ayúdanos a seguir creciendo!</h2>
+            <div class="donation">
+                <p>Si te ha gustado nuestro contenido y encuentras útil la información proporcionada, considera realizar una donación para apoyar nuestro trabajo continuo. Tu generosidad nos ayudará a mantener y mejorar este sitio web.</p>
+                <p>¡Cualquier contribución, grande o pequeña, es muy apreciada!</p>
+                <a class="donate-button" href="index2.html">Hacer una Donación</a>
+            </div>
+        </section>
+
+        <section id="hoy">
+            <h2>Hoy</h2>
+            <p>Hoy en día, las computadoras personales son ubicuas en la vida cotidiana y continúan evolucionando con avances como la computación en la nube, la inteligencia artificial y la realidad virtual. Desde los enormes mainframes de la década de 1950 hasta los dispositivos ultra-portátiles y conectados en red de hoy en día, la historia de los ordenadores ha sido una historia de constante evolución e innovación, impulsada por el deseo humano de avanzar en el conocimiento y la tecnología.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Historia del PC</p>
+    </footer>
+</body>
+</html>
