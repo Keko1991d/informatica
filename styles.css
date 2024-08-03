@@ -1,130 +1,105 @@
-/* Estilo general de la página */
+/* Estilo general para la página */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #1c1c1c; /* Fondo oscuro para un contraste metálico */
-    color: #e5e5e5; /* Texto claro para contraste */
+    color: #fff;
+    background-color: #111;
 }
 
-/* Estilo del header */
 header {
-    background-color: #000; /* Fondo negro para el header */
-    color: #e5e5e5;
-    padding: 20px 0;
-    text-align: center;
-    border-bottom: 3px solid #00aaff; /* Azul metálico */
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .logo h1 {
     margin: 0;
-    font-size: 2.5rem;
 }
 
-/* Estilo de navegación */
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
-    text-align: center;
     margin: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin-left: 20px;
 }
 
 nav ul li a {
-    color: #e5e5e5;
+    color: #1e90ff;
     text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #00aaff; /* Azul metálico para el hover en los enlaces */
+    text-decoration: underline;
 }
 
-/* Estilo de la sección hero */
 .hero {
-    background: url('https://via.placeholder.com/1920x600.png?text=Banner') center center/cover no-repeat;
-    color: #e5e5e5;
-    padding: 100px 20px;
+    background-color: #1e1e1e;
+    color: #fff;
     text-align: center;
-    border-bottom: 3px solid #00aaff; /* Azul metálico */
+    padding: 50px 20px;
 }
 
-.hero h2 {
-    font-size: 3rem;
-    margin: 0;
-}
-
-.hero p {
-    font-size: 1.2rem;
-}
-
-/* Estilo principal */
-main {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/* Estilo de las tarjetas de proyecto */
 .project-card {
-    background: linear-gradient(145deg, #333, #222); /* Efecto metálico sutil */
-    border-radius: 10px;
+    background-color: #333;
+    margin: 20px auto;
     padding: 20px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombra sutil */
-    width: 300px; /* Tamaño fijo para las tarjetas */
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.card-content {
     text-align: center;
 }
 
-.project-card h3 {
-    margin-top: 0;
-    font-size: 1.5rem;
-    color: #00aaff; /* Azul metálico para los títulos */
+.card-content h3 {
+    color: #1e90ff;
 }
 
-.project-card p {
-    font-size: 1rem;
-    color: #e5e5e5;
-    margin-bottom: 10px;
+.card-content p {
+    color: #ccc;
 }
 
-.project-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: #00aaff; /* Azul metálico para el botón */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+.project-link {
+    display: inline-block;
     margin-top: 10px;
-    border: none;
-    font-size: 1rem;
-}
-
-.project-button:hover {
-    background-color: #0077cc; /* Azul metálico más oscuro para hover */
-}
-
-.project-button img {
-    max-width: 80px; /* Tamaño reducido de la imagen */
-    height: auto;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #1e90ff;
     border-radius: 5px;
-    margin-right: 10px;
+    text-decoration: none;
 }
 
-/* Estilo del footer */
+.project-link:hover {
+    background-color: #0d74d1;
+}
+
+pre {
+    background-color: #222;
+    color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    text-align: left;
+    display: block;
+    white-space: pre-wrap;
+}
+
+code {
+    font-family: monospace;
+}
+
 footer {
-    text-align: center;
-    padding: 10px 0;
     background-color: #000;
-    color: #e5e5e5;
-    border-top: 3px solid #00aaff; /* Azul metálico */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
