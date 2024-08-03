@@ -1,58 +1,33 @@
-/* Estilo general de las imágenes del proyecto */
-.project-image {
-    max-width: 150px; /* Ajusta el tamaño de la imagen */
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.3s;
-}
-
-.project-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: background-color 0.3s;
-    border: none;
-}
-
-.project-button:hover {
-    background-color: #555;
-}
-
-.project-button:hover .project-image {
-    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
-}
-
-/* Otros estilos */
+/* Estilo general de la página */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #141414; /* Fondo oscuro similar al de Netflix */
+    color: #e5e5e5; /* Texto claro para contraste */
 }
 
+/* Estilo del header */
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    background-color: #000; /* Fondo negro para el header */
+    color: #e5e5e5;
+    padding: 20px 0;
     text-align: center;
+    border-bottom: 3px solid #007bff; /* Azul para destacar */
 }
 
 header .logo h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
+/* Estilo de navegación */
 nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    margin: 0;
 }
 
 nav ul li {
@@ -61,38 +36,95 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #e5e5e5;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
+nav ul li a:hover {
+    color: #007bff; /* Azul para el hover en los enlaces */
+}
+
+/* Estilo de la sección hero */
 .hero {
-    background-color: #444;
-    color: white;
-    padding: 50px 20px;
+    background: url('https://via.placeholder.com/1920x600.png?text=Banner') center center/cover no-repeat;
+    color: #e5e5e5;
+    padding: 100px 20px;
     text-align: center;
+    border-bottom: 3px solid #007bff;
 }
 
+.hero h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Estilo principal */
 main {
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+/* Estilo de las tarjetas de proyecto */
 .project-card {
-    background-color: white;
+    background-color: #333; /* Fondo oscuro para las tarjetas */
     border-radius: 10px;
     padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombra sutil */
+    width: 300px; /* Tamaño fijo para las tarjetas */
+    text-align: center;
 }
 
 .project-card h3 {
     margin-top: 0;
+    font-size: 1.5rem;
+    color: #007bff; /* Azul para los títulos */
 }
 
+.project-card p {
+    font-size: 1rem;
+    color: #e5e5e5;
+    margin-bottom: 10px;
+}
+
+.project-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #007bff; /* Azul para el botón */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+.project-button:hover {
+    background-color: #0056b3; /* Azul más oscuro para hover */
+}
+
+.project-button .project-image {
+    max-width: 100px; /* Tamaño reducido de la imagen */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Estilo del footer */
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
-    color: white;
-    margin-top: 20px;
+    background-color: #000;
+    color: #e5e5e5;
+    border-top: 3px solid #007bff;
 }
