@@ -1,175 +1,94 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciberdroides - Nuevos Pokémon</title>
-    <style>
-        /* Estilos CSS */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #222; /* Fondo oscuro */
-            color: #fff; /* Letras blancas */
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #333; /* Fondo gris oscuro */
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #007bff; /* Azul */
-        }
-        p {
-            line-height: 1.6;
-        }
-        .highlight {
-            background-color: #444; /* Resaltado más oscuro */
-            padding: 10px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .section h2 {
-            color: #28a745; /* Verde */
-        }
-        .section p {
-            color: #ccc; /* Gris claro */
-        }
-        .section img {
-            max-width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-            margin-bottom: 20px;
-        }
-        .section ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .section ul li {
-            margin-bottom: 10px;
-            padding-left: 20px;
-            position: relative;
-        }
-        .section ul li:before {
-            content: "\2022";
-            color: #007bff; /* Azul */
-            font-size: 16px;
-            position: absolute;
-            left: 0;
-            top: 4px;
-        }
-        .disclaimer {
-            background-color: #555; /* Fondo oscuro para el descargo de responsabilidad */
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        .disclaimer p {
-            font-style: italic;
-            color: #ccc; /* Gris claro */
-            margin: 0;
-        }
-        .download-button {
-            display: block;
-            width: 200px;
-            margin: 0 auto;
-            padding: 10px 20px;
-            background-color: #007bff; /* Azul */
-            color: #fff; /* Letras blancas */
-            text-align: center;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .download-button:hover {
-            background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            grid-gap: 10px;
-        }
-
-        .gallery-item {
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-            background-color: transparent; /* Eliminar fondo blanco */
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item img:hover {
-            transform: scale(1.1);
-        }
-    </style>
+    <title>Mis Proyectos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Descubre los Ciberdroides: Los Nuevos Pokémon</h1>
-        <div class="disclaimer">
-            <p>Nota: Este proyecto está actualmente en desarrollo y es sin ánimo de lucro. Todos los derechos de Pokémon pertenecen a Nintendo, Game Freak y The Pokémon Company. Esta es una obra de fans hecha con amor y respeto por la franquicia Pokémon.</p>
+    <header>
+        <div class="logo">
+            <h1>Mis Proyectos</h1>
         </div>
-        <div class="section">
-            <h2>¿Qué son los Ciberdroides?</h2>
-            <p>Los Ciberdroides son una emocionante nueva generación de Pokémon que fusionan la tecnología avanzada con la esencia misma de estos increíbles seres. Diseñados por los mejores científicos e ingenieros, los Ciberdroides representan una revolución en el mundo de la crianza Pokémon.</p>
-        </div>
-        <div class="highlight">
-            <h2>Características de los Ciberdroides</h2>
+        <nav>
             <ul>
-                <li>Adaptabilidad: Los Ciberdroides pueden adaptarse a una variedad de situaciones y entornos, desde la ciudad hasta la naturaleza salvaje.</li>
-                <li>Capacidades Especiales: Cada Ciberdroide tiene habilidades únicas que van desde la velocidad hasta la fuerza y la resistencia.</li>
-                <li>Conexión Emocional: Estos Pokémon tienen una conexión especial con sus entrenadores, lo que les permite comprender y responder a las emociones humanas.</li>
-                <li>Lealtad Inquebrantable: Los Ciberdroides son socios leales y confiables que están siempre dispuestos a proteger y apoyar a sus entrenadores.</li>
-                <li>Evolución Dinámica: Los Ciberdroides pueden evolucionar y mejorar a través de la interacción con su entrenador y la participación en batallas.</li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#proyecto1">Proyecto 1</a></li>
+                <li><a href="#proyecto2">Proyecto 2</a></li>
+                <li><a href="#proyecto3">Proyecto 3</a></li>
+                <li><a href="#proyecto4">Proyecto 4</a></li>
+                <li><a href="#proyecto5">Proyecto 5</a></li>
+                <li><a href="#proyecto6">Proyecto 6</a></li>
+                <li><a href="#proyecto7">Proyecto 7</a></li>
             </ul>
-        </div>
-        <div class="section">
-            <h2>Explora el Mundo de los Ciberdroides</h2>
-            <p>Sumérgete en un emocionante mundo lleno de aventuras y descubre la increíble diversidad de los Ciberdroides. Desde las bulliciosas calles de la ciudad hasta las vastas extensiones de la naturaleza salvaje, cada rincón del mundo esconde nuevos Pokémon esperando ser descubiertos.</p>
-            <img src="paisaje.jpg" alt="Paisaje de aventura">
-        </div>
-        <div class="section">
-            <h2>Más de 100 Especies Diferentes</h2>
-            <p>¡Los Ciberdroides vienen en una amplia variedad de formas y tamaños, con más de 100 especies diferentes esperando ser descubiertas! Desde los ágiles Ciberdroides voladores hasta los poderosos Ciberdroides terrestres, cada uno tiene sus propias habilidades y personalidades únicas.</p>
-        </div>
-        <div class="section">
-            <h2>Únete a la Revolución de los Ciberdroides</h2>
-            <p>Conviértete en parte de la emocionante revolución de los Ciberdroides y descubre un nuevo nivel de conexión con tus Pokémon. Forja vínculos fuertes y duraderos mientras exploras un mundo lleno de misterio, peligro y maravilla.</p>
-        </div>
-        <div class="section">
-            <h2>Descubre a los Ciberdroides hoy mismo</h2>
-            <p>¡Descarga ahora la versión beta de la aplicación Ciberdroides y comienza tu aventura Pokémon como nunca antes! ¡Explora, entrena, batalla y haz nuevos amigos en este emocionante mundo de Pokémon tecnológicamente avanzado!</p>
-            <a href="enlace_de_descarga_mega" class="download-button">Descargar Ahora</a>
-            <img src="boton_mega.png" alt="Botón de descarga">
-        </div>
-        <div class="section">
-            <h2>Galería de Fotos</h2>
-            <div class="gallery">
-                <div class="gallery-item">
-                    <img src="imagen1.jpg" alt="Descripción de la imagen 1">
-                </div>
-                <div class="gallery-item">
-                    <img src="imagen2.jpg" alt="Descripción de la imagen 2">
-                </div>
-                <div class="gallery-item">
-                    <img src="imagen3.jpg" alt="Descripción de la imagen 3">
-                </div>
-                <!-- Agrega más imágenes aquí -->
-            </div>
-        </div>
-    </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Bienvenido a Mis Proyectos</h2>
+        <p>Explora nuestros proyectos y descárgalos fácilmente.</p>
+    </section>
+
+    <main>
+        <!-- Proyecto 1 -->
+        <section id="proyecto1" class="project-card">
+            <h3>Proyecto 1: Herramienta de Análisis de Datos</h3>
+            <p>Este proyecto es una herramienta poderosa para analizar grandes volúmenes de datos. Permite visualizar los datos de manera interactiva, realizar análisis estadísticos y generar informes detallados.</p>
+            <a href="https://mega.nz/file/XXXX" class="project-link" target="_blank" rel="noopener noreferrer">Descargar Proyecto 1</a>
+        </section>
+
+        <!-- Proyecto 2 -->
+        <section id="proyecto2" class="project-card">
+            <h3>Proyecto 2: Sistema de Gestión de Tareas</h3>
+            <p>Un sistema práctico para organizar y gestionar tareas y proyectos. Incluye funciones para crear y asignar tareas, seguir el progreso y personalizar el flujo de trabajo según tus necesidades.</p>
+            <a href="https://mega.nz/file/YYYY" class="project-link" target="_blank" rel="noopener noreferrer">Descargar Proyecto 2</a>
+        </section>
+
+        <!-- Proyecto 3 -->
+        <section id="proyecto3" class="project-card">
+            <h3>Proyecto 3: Aplicación de Gestión de Contraseñas</h3>
+            <p>Una aplicación segura para almacenar y gestionar tus contraseñas. Ofrece encriptación avanzada para proteger tus datos, genera contraseñas seguras y se sincroniza entre dispositivos para tu comodidad.</p>
+            <a href="https://mega.nz/file/ZZZZ" class="project-link" target="_blank" rel="noopener noreferrer">Descargar Proyecto 3</a>
+        </section>
+
+        <!-- Proyecto 4 -->
+        <section id="proyecto4" class="project-card">
+            <h3>Proyecto 4: Sistema de Respaldo y Recuperación de Datos</h3>
+            <p>Un sistema diseñado para hacer copias de seguridad y recuperar datos importantes. Incluye opciones para programar respaldos, recuperar archivos perdidos y verificar la integridad de tus datos.</p>
+            <a href="https://mega.nz/file/ABCD" class="project-link" target="_blank" rel="noopener noreferrer">Descargar Proyecto 4</a>
+        </section>
+
+        <!-- Proyecto 5 -->
+        <section id="proyecto5" class="project-card">
+            <h3>Proyecto 5: Navegador Web Personalizado</h3>
+            <p>Un navegador web desarrollado en Python usando PyQt5. Incluye una interfaz de usuario amigable con una barra de herramientas para navegación, gestión de pestañas y búsqueda, además de un diálogo de inicio de sesión personalizado.</p>
+            <ul>
+                <li><strong>Interfaz Amigable:</strong> Fácil de usar con botones para navegar, recargar y abrir nuevas pestañas.</li>
+                <li><strong>Gestión de Pestañas:</strong> Permite abrir y gestionar múltiples páginas web simultáneamente.</li>
+                <li><strong>Barra de Direcciones:</strong> Para ingresar URLs y realizar búsquedas.</li>
+                <li><strong>Inicio de Sesión:</strong> Protege el acceso con un diálogo de inicio de sesión personalizado.</li>
+            </ul>
+            <a href="https://mega.nz/file/EFGH" class="project-link" target="_blank" rel="noopener noreferrer">Descargar Proyecto 5</a>
+        </section>
+
+        <!-- Proyecto 6 -->
+        <section id="proyecto6" class="project-card">
+            <h3>Proyecto 6: Asistente Personal Interactivo</h3>
+            <p>El Proyecto 6 crea un asistente personal interactivo que combina varias funcionalidades útiles en una sola aplicación. La interfaz gráfica es sencilla pero efectiva, mientras que el reconocimiento y la síntesis de voz proporcionan una experiencia interactiva. El asistente puede realizar tareas básicas del sistema, reproducir música, traducir texto, y mucho más, lo que lo convierte en una herramienta versátil para mejorar la productividad y la comodidad del usuario.</p>
+            <a href="https://mega.nz/file/IJKL" class="project-link" target="_blank" rel="noopener noreferrer">Descargar Proyecto 6</a>
+        </section>
+
+        <!-- Proyecto 7 -->
+        <section id="proyecto7" class="project-card">
+            <h3>Proyecto 7: Optimización del Sistema Windows</h3>
+            <p>Este proyecto es una aplicación de optimización del sistema para Windows creada con Tkinter. La aplicación permite a los usuarios realizar tareas de mantenimiento del sistema, como limpiar archivos temporales, desfragmentar el disco, ejecutar un antivirus, y reparar archivos del sistema. Incluye una interfaz de usuario con pestañas para diferentes funciones y un área de registro para mostrar los resultados y el progreso de las tareas.</p>
+            <a href="https://mega.nz/file/JKLM" class="project-link" target="_blank" rel="noopener noreferrer">Descargar Proyecto 7</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mis Proyectos. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
