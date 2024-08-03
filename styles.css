@@ -4,25 +4,28 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    background-color: #111; /* Fondo oscuro para contraste */
+    background-color: #111;
+    scroll-behavior: smooth; /* Desplazamiento suave */
 }
 
-/* Estilo del header */
 header {
-    background-color: #000; /* Fondo negro para el header */
+    background-color: #000;
     color: #fff;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 3px solid #00aaff; /* Azul metálico */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: fixed; /* Fija la barra de navegación */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 header .logo h1 {
     margin: 0;
 }
 
-/* Estilo de navegación */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -35,121 +38,132 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #1e90ff; /* Azul para enlaces */
+    color: #1e90ff;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transición suave para el color */
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: #0d74d1;
 }
 
-/* Estilo de la sección hero */
 .hero {
-    background-color: #1e1e1e; /* Fondo oscuro para la sección hero */
+    background-color: #1e1e1e;
     color: #fff;
     text-align: center;
     padding: 50px 20px;
-    border-bottom: 3px solid #00aaff; /* Azul metálico */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 60px; /* Ajuste para la barra de navegación fija */
 }
 
-.hero h2 {
-    font-size: 2.5rem;
-    margin: 0;
-}
-
-.hero p {
-    font-size: 1.2rem;
-}
-
-/* Estilo de las tarjetas de proyecto */
 .project-card {
-    background-color: #333; /* Fondo oscuro para las tarjetas */
+    background-color: #333;
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
     width: 80%;
     max-width: 1200px;
-    position: relative;
-    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto de hover */
 }
 
-/* Contenido de las tarjetas */
+.project-card:hover {
+    transform: scale(1.02); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Mayor sombra al pasar el ratón */
+}
+
 .card-content {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
-.card-content h3 {
-    color: #00aaff; /* Azul metálico para los títulos */
+.project-info {
+    flex: 1;
 }
 
-.card-content p {
+.project-info h3 {
+    color: #1e90ff;
+    font-size: 1.5em;
+}
+
+.project-info p {
     color: #ccc;
 }
 
-/* Botón de descarga */
+.project-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .project-link {
     display: inline-block;
-    margin-top: 10px;
     padding: 10px 20px;
     color: #fff;
-    background-color: #00aaff; /* Azul metálico para el botón */
+    background-color: #1e90ff;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 1rem;
+    transition: background-color 0.3s ease;
 }
 
 .project-link:hover {
-    background-color: #0077cc; /* Azul metálico más oscuro para hover */
+    background-color: #0d74d1;
 }
 
-/* Botón con imagen */
-.project-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    background-color: #00aaff; /* Azul metálico */
+.contact-section {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.contact-section h2 {
+    color: #1e90ff;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    margin-top: 10px;
+}
+
+.contact-section input, .contact-section textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #333;
     color: #fff;
-    text-decoration: none;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #1e90ff;
+    border: none;
     border-radius: 5px;
     margin-top: 10px;
-    border: none;
-    font-size: 1rem;
-    overflow: hidden; /* Para asegurar que la imagen no sobresalga */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.project-button img {
-    width: 40px; /* Ajusta el tamaño de la imagen */
-    height: 40px; /* Ajusta el tamaño de la imagen */
-    border-radius: 5px;
-    margin-right: 10px; /* Espacio entre la imagen y el texto */
+.contact-section button:hover {
+    background-color: #0d74d1;
 }
 
-.project-button:hover {
-    background-color: #0077cc; /* Azul metálico más oscuro para hover */
-}
-
-/* Estilo para bloques de código */
-pre {
-    background-color: #222;
-    color: #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto;
-    text-align: left;
-    display: block;
-    white-space: pre-wrap;
-}
-
-code {
-    font-family: monospace;
-}
-
-/* Estilo del footer */
 footer {
-    background-color: #000; /* Fondo negro para el footer */
+    background-color: #000;
     color: #fff;
     text-align: center;
     padding: 10px;
-    border-top: 3px solid #00aaff; /* Azul metálico */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
 }
