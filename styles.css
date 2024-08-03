@@ -1,10 +1,31 @@
 /* Estilo general de las imágenes del proyecto */
 .project-image {
-    max-width: 100%;
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block;
-    margin: 0 auto 20px; /* Centra la imagen y agrega espacio debajo */
-    border-radius: 10px; /* Opcional: añade bordes redondeados */
+    max-width: 150px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.project-button:hover {
+    background-color: #555;
+}
+
+.project-button:hover .project-image {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
 }
 
 /* Otros estilos */
@@ -66,19 +87,6 @@ main {
 
 .project-card h3 {
     margin-top: 0;
-}
-
-.project-link {
-    display: inline-block;
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.project-link:hover {
-    background-color: #555;
 }
 
 footer {
