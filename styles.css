@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #141414; /* Fondo oscuro similar al de Netflix */
+    background-color: #1c1c1c; /* Fondo oscuro para un contraste metálico */
     color: #e5e5e5; /* Texto claro para contraste */
 }
 
@@ -14,7 +14,7 @@ header {
     color: #e5e5e5;
     padding: 20px 0;
     text-align: center;
-    border-bottom: 3px solid #007bff; /* Azul para destacar */
+    border-bottom: 3px solid #00aaff; /* Azul metálico */
 }
 
 header .logo h1 {
@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #007bff; /* Azul para el hover en los enlaces */
+    color: #00aaff; /* Azul metálico para el hover en los enlaces */
 }
 
 /* Estilo de la sección hero */
@@ -52,7 +52,7 @@ nav ul li a:hover {
     color: #e5e5e5;
     padding: 100px 20px;
     text-align: center;
-    border-bottom: 3px solid #007bff;
+    border-bottom: 3px solid #00aaff; /* Azul metálico */
 }
 
 .hero h2 {
@@ -74,7 +74,7 @@ main {
 
 /* Estilo de las tarjetas de proyecto */
 .project-card {
-    background-color: #333; /* Fondo oscuro para las tarjetas */
+    background: linear-gradient(145deg, #333, #222); /* Efecto metálico sutil */
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -86,7 +86,7 @@ main {
 .project-card h3 {
     margin-top: 0;
     font-size: 1.5rem;
-    color: #007bff; /* Azul para los títulos */
+    color: #00aaff; /* Azul metálico para los títulos */
 }
 
 .project-card p {
@@ -100,7 +100,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    background-color: #007bff; /* Azul para el botón */
+    background-color: #00aaff; /* Azul metálico para el botón */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -110,11 +110,11 @@ main {
 }
 
 .project-button:hover {
-    background-color: #0056b3; /* Azul más oscuro para hover */
+    background-color: #0077cc; /* Azul metálico más oscuro para hover */
 }
 
-.project-button .project-image {
-    max-width: 100px; /* Tamaño reducido de la imagen */
+.project-button img {
+    max-width: 80px; /* Tamaño reducido de la imagen */
     height: auto;
     border-radius: 5px;
     margin-right: 10px;
@@ -126,5 +126,5 @@ footer {
     padding: 10px 0;
     background-color: #000;
     color: #e5e5e5;
-    border-top: 3px solid #007bff;
+    border-top: 3px solid #00aaff; /* Azul metálico */
 }
